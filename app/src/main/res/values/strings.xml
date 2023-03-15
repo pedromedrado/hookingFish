@@ -40,9 +40,11 @@
     <string name="save">Salvar</string>
     <string name="email">Email</string>
     <string name="password">Senha</string>
-    <string name="does_not_have_account">Não tem uma conta? <b><font color="#000000">Cadastre-se.</font></b></string>
+    <string name="does_not_have_account">Não tem uma conta? <b><font color="#000000">Cadastre-se</font></b></string>
     <string name="name">Nome</string>
     <string name="newpassword">Nova senha</string>
+    <string name="forgive_passoword">Esqueceu sua senha? <b><font color="#000000">Clique aqui</font></b></string>
+    <string name="register">Cadastrar</string>
 
 
 </resources>
