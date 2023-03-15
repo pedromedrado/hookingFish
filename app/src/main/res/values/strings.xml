@@ -38,8 +38,11 @@
     <string name="dois">2</string>
     <string name="tres">3</string>
     <string name="save">Salvar</string>
-
-
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="does_not_have_account">Não tem uma conta? <b><font color="#000000">Cadastre-se.</font></b></string>
+    <string name="name">Nome</string>
+    <string name="newpassword">Nova senha</string>
 
 
 </resources>

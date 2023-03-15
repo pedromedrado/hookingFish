@@ -4,15 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/drawable/backgradient.xml" value="0.1205" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.149" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.149" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.1" />
         <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/font/asul.xml" value="0.18703703703703703" />
         <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/font/cambo.xml" value="0.21897435897435896" />
         <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/font/font.xml" value="0.21897435897435896" />
-        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/dialog.xml" value="0.25" />
         <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/hanking_fragment.xml" value="0.1921875" />
         <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/hankingfragment.xml" value="0.22" />
         <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/information_fragment.xml" value="0.1921875" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/registerfragement.xml" value="0.1921875" />
       </map>
     </option>
   </component>
