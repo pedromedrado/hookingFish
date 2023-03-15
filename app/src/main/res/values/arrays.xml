@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="months">
+        <item>@string/april</item>
+        <item>@string/may</item>
+        <item>@string/jun</item>
+        <item>@string/jul</item>
+        <item>@string/ago</item>
+        <item>@string/sep</item>
+        <item>@string/oct</item>
+        <item>@string/nov</item>
+        <item>@string/dec</item>
+    </string-array>
+
+    <string-array name="typeFish">
+        <item>@string/pira</item>
+        <item>@string/tucuna</item>
+        <item>@string/tamba</item>
+        <item>@string/matrin</item>
+        <item>@string/tilapia</item>
+        <item>@string/pintado</item>
+    </string-array>
+
+    <string-array name="quanti">
+        <item>@string/um</item>
+        <item>@string/dois</item>
+        <item>@string/tres</item>
+    </string-array>
+    <string-array name="names">
+        <item>@string/leo</item>
+        <item>@string/pedro</item>
+        <item>@string/rony</item>
+    </string-array>
+
+
+
+</resources>

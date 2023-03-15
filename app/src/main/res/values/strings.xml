@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">hookingFish</string>
+
+    <string name="title">HookingFish</string>
+    <string name="button">Entrar</string>
+    <string name="welcome">Seja bem vindo %1$s</string>
+    <string name="Total">Total Geral</string>
+    <string name="Kg">Peso</string>
+    <string name="hanking">Hanking Geral</string>
+    <string name="col1"> Nome</string>
+    <string name="col2"> Mês</string>
+    <string name="col3"> Total </string>
+    <string name="col4"> Total Kg </string>
+    <string name="leo"> Leonardo </string>
+    <string name="pedro"> Pedro </string>
+    <string name="rony"> Ronnyery</string>
+    <string name="registerfish"> Cadastro de Informação do Peixe</string>
+    <string name="infomes">Selecione o mês</string>
+    <string name="infofish">Tipo de peixe</string>
+    <string name="infoquant">Quantidade</string>
+    <string name="infopeso">Digite o peso</string>
+    <string name="april">Abril</string>
+    <string name="may">Maio</string>
+    <string name="jun">Junho</string>
+    <string name="jul">Julho</string>
+    <string name="ago">Agosto</string>
+    <string name="sep">Setembro</string>
+    <string name="oct">Outubro</string>
+    <string name="nov">Novembro</string>
+    <string name="dec">Dezembro</string>
+    <string name="pira">Pirarara</string>
+    <string name="tucuna">Tucunare</string>
+    <string name="tamba">Tambaqui</string>
+    <string name="matrin">Matrichan</string>
+    <string name="tilapia">Tilápia</string>
+    <string name="pintado">Pintado</string>
+    <string name="um">1</string>
+    <string name="dois">2</string>
+    <string name="tres">3</string>
+    <string name="save">Salvar</string>
+
+
+
+
+</resources>

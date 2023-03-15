@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/drawable/backgradient.xml" value="0.1205" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/font/asul.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/font/cambo.xml" value="0.21897435897435896" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/font/font.xml" value="0.21897435897435896" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/hanking_fragment.xml" value="0.1921875" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/hankingfragment.xml" value="0.22" />
+        <entry key="..\:/Users/Ronnyery/Downloads/hookingFish/app/src/main/res/layout/information_fragment.xml" value="0.1921875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
