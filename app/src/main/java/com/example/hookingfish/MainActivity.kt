@@ -2,37 +2,48 @@ package com.example.hookingfish
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.*
+import android.widget.Button
+import androidx.appcompat.widget.Toolbar
+import androidx.drawerlayout.widget.DrawerLayout
+import androidx.fragment.app.DialogFragment
+import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.navigateUp
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.navigation.NavigationView
 
-class MainActivity : AppCompatActivity() {
-    private lateinit var textshow: TextView
-    private lateinit var spinner: Spinner
-    private lateinit var button: Button
+class MainActivity : AppCompatActivity(){
 
+    private lateinit var appBarConfiguration: AppBarConfiguration
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //textshow = findViewById(R.id.txt_show)
-        spinner = findViewById(R.id.spinner)
-        button = findViewById(R.id.button)
-        val nomes = arrayOf("Pedro", "Ronnyery", "Leonardo")
-//
-        spinner.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, nomes)
 
-        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
 
-            override fun onNothingSelected(p0: AdapterView<*>?) {
-            }
+        val drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
+        val navView = findViewById<NavigationView>(R.id.nav_view)
+        val navController = findNavController(R.id.nav_host_fragment_content_main)
 
-            override fun onItemSelected(p0: AdapterView<*>?, p1: View?, position: Int, p3: Long) {
+        /// Ao clicar sera apresentado no barra toolbar no titilo/nome da fragment
 
+        appBarConfiguration = AppBarConfiguration (
+            setOf(R.id.nav_home, R.id.nav_champions,R.id.nav_modality
 
-            }
+            ),drawerLayout
+        )
+        setupActionBarWithNavController(navController,appBarConfiguration)
+        navView.setupWithNavController(navController)
+    }
 
-        }
+    override fun onSupportNavigateUp(): Boolean {
+        val navController = findNavController(R.id.nav_host_fragment_content_main)
+        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
 
     }
+
 }

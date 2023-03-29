@@ -45,6 +45,22 @@
     <string name="newpassword">Nova senha</string>
     <string name="forgive_passoword">Esqueceu sua senha? <b><font color="#000000">Clique aqui</font></b></string>
     <string name="register">Cadastrar</string>
+    <string name="menu_home">Inicio </string>
+    <string name="menu_champions">Meus campeonatos</string>
+    <string name="menu_about">Sobre</string>
+    <string name="social">Social</string>
+    <string name="menu_modality">Modalidades</string>
+    <string name="size">Tamanho</string>
+    <string name="weight">Peso</string>
+    <string name="amouth">Quantidade</string>
+    <string name="select_modality">Vamos lá! Selecione a modalidade: </string>
+    <string name="indivdual">Individual</string>
+    <string name="dupla">Dupla</string>
+    <string name="seu_campeonato_indivudual_ou_em_dupla">Seu campeonato é Individual ou em dupla?</string>
+    <string name="campeonato_de_pesca">Campeonato de Pesca</string>
+    <string name="data_de_inicio">Data de inicio</string>
+    <string name="selecione_o_per_odo">Selecione o período: </string>
+    <string name="salvar">Salvar</string>
 
 
 </resources>
