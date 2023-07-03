@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+<!--     a Referencia das telas para clique  sai deste local-->
+    <fragment
+        android:id="@+id/nav_home"
+        android:label="@string/menu_home"
+        android:name="com.example.hookingfish.view.HomeFragment"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_nav_home_to_nav_modality"
+            app:destination="@id/nav_modality" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_champions"
+        android:label="@string/menu_champions"
+        android:name="com.example.hookingfish.view.ChampionsFragment"
+        tools:layout="@layout/fragment_champions">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_modality"
+        android:label="@string/menu_modality"
+        android:name="com.example.hookingfish.view.ModalityFragment"
+        tools:layout="@layout/fragment_modality">
+
+        <action
+            android:id="@+id/action_nav_modality_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_nav_modality_to_nav_modal"
+            app:destination="@id/nav_modal" />
+        <action
+            android:id="@+id/action_nav_modality_to_nav_modal2"
+            app:destination="@id/nav_modal2" />
+        <action
+            android:id="@+id/action_nav_modality_to_nav_modal1"
+            app:destination="@id/nav_modal1" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_modal"
+        android:label="Seleção de modalidade"
+        android:name="com.example.hookingfish.view.SizeFragment"
+        tools:layout="@layout/fragment_size">
+
+        <action
+            android:id="@+id/action_nav_modal_to_nav_start"
+            app:destination="@id/nav_start" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_modal1"
+        android:label="Seleção de modalidade"
+        android:name="com.example.hookingfish.view.WeightFragment"
+        tools:layout="@layout/fragment_weight">
+
+        <action
+            android:id="@+id/action_nav_modal1_to_nav_start"
+            app:destination="@id/nav_start" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_modal2"
+        android:label="Seleção de modalidade"
+        android:name="com.example.hookingfish.view.AmountFragment"
+        tools:layout="@layout/fragment_amount">
+
+        <action
+            android:id="@+id/action_nav_modal2_to_nav_start"
+            app:destination="@id/nav_start" />
+    </fragment>
+
+    <fragment
+    android:id="@+id/nav_start"
+    android:label="start"
+    android:name="com.example.hookingfish.view.StartFragment"
+        tools:layout="@layout/fragment_start">
+        <action
+            android:id="@+id/action_nav_start_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+
+
+</navigation>
