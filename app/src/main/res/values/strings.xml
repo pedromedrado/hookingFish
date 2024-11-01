@@ -61,6 +61,11 @@
     <string name="data_de_inicio">Data de inicio</string>
     <string name="selecione_o_per_odo">Selecione o período: </string>
     <string name="salvar">Salvar</string>
+    <string name="invalid_email">Email Inválido</string>
+    <string name="invalid_password"> Senha Inválida</string>
+    <string name="or">Ou</string>
+    <string name="invalid_name">Nome Inválido\n</string>
+    <string name="invalid_date">Dados Inválidos</string>
 
 
 </resources>

@@ -1,7 +1,5 @@
 package com.example.hookingfish.util
-
-import androidx.annotation.StringRes
-
+import java.lang.Error
 interface Login {
 
     interface ViewModelLogin  {
@@ -10,6 +8,16 @@ interface Login {
 
     }
 
+    interface View {
+
+        fun showProgress(enabled:Boolean)
+        fun displayEmailFailure(@StringRes emailError:Int?)
+        fun displayNameFailure(@StringRes nameError:Int?)
+        fun displayPasswordFailure(@StringRes passwordError:Int?)
+        fun onUserAuthenticated()
+        fun onUserUnauthorized(message:String)
+        fun onUserRegisted()
+
     interface View : BaseView <Presenter>{
 
         fun showProgress(enabled:Boolean)
@@ -17,6 +25,7 @@ interface Login {
         fun displayPasswordFailure(@StringRes passwordError:Int?)
         fun onUserAuthenticated()
         fun onUserUnauthorized(message:String)
+
     }
 }
 

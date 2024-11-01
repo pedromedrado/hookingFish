@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "976410908349",
+    "project_id": "loginhookingfish",
+    "storage_bucket": "loginhookingfish.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976410908349:android:4401b13084beacdec709d4",
+        "android_client_info": {
+          "package_name": "com.example.hookingfish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976410908349-rk17v6081io2ka7d0632r3u4j491ds3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZd5NAkrEBkGCD_bIglFlGCWMMlU_5uJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976410908349-rk17v6081io2ka7d0632r3u4j491ds3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
